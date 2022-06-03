@@ -118,6 +118,10 @@ a {
   padding-top: 30px;
 }
 
+.bottom {
+  padding-bottom: 40px;
+}
+
 /* footer */
 footer {
   clear: right;
