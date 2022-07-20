@@ -4,11 +4,7 @@
 body {
   font-family: sans-serif;
   margin: 0em;
-}
-
-.page-container {
-  position: relative;
-  min-height: 100vh;
+  font-size: 13px;
 }
 
 .hidden {
@@ -20,36 +16,38 @@ body {
 .hidden:focus {
   left: 1px;
 }
+
+.all-but-footer {
+  min-height: calc(100vh - 40px);
+}
 /* title and subtitle */
 
 header {
   color: white;
   background-color: rgb(45,154,183);
   margin: 0em;
-  margin-top: -25px;
+  margin-top: -2.5em;
 }
 
 h1 {
   font-weight: bold;
-  font-size: 45px;
+  font-size: 3em;
   text-transform: uppercase;
-  width: 700px;
-  padding: 50px 150px 0px 150px;
-  margin-bottom: -3px;
+  padding: 1em 4em 0em 4em;
+  margin-bottom: .5em;
 }
 
 h2 {
   font-weight: normal;
-  font-size: 23px;
+  font-size: 1.5em;
   font-style: italic;
-  width: 620px;
-  padding: 0px 150px 40px 150px;
+  padding: 0em 8em .5em 8em;
 }
 
 /* menu */
 nav {
   background-color: rgb(235,235,235);
-  padding: 3px 112px 3px 112px;
+  padding: .23em 8em .23em 8em;
 
 }
 
@@ -69,34 +67,34 @@ nav a {
 .navtext {
   color: rgb(60,60,60);
   font-weight: bold;
-  font-size: 12px;
+  font-size: .9em;
   text-decoration: none;
 }
 
 .slash {
   color: rgb(30,30,30);
   font-weight: normal;
-  font-size: 11px;
+  font-size: .9em;
 }
 
 /* main text */
 section {
-  padding: 0px 150px 0px 150px;
+  padding: 0em 11.5em 0px 11.5em;
   line-height: 1.7;
   color: rgb(70,70,70);
-  font-size:11px;
+  font-size:.9em;
 }
 
 h3 {
   text-transform: uppercase;
-  font-size: 15px;
-  margin-top: 30px;
-  margin-bottom: -5px;
+  font-size: 1.2em;
+  margin-top: 2.3em;
+  margin-bottom: -.38em;
 }
 
 h4 {
   color: rgb(45,154,183);
-  font-size: 14px;
+  font-size: 1.5em;
 }
 
 a {
@@ -106,27 +104,27 @@ a {
 
 .sidebar {
   float: right;
-  width: 30%;
-  padding: 20px 100px 50px 0px;
-  line-height: 1.7;
-  margin-right: 50px;
-  margin-left: 40px;
+  width: 25em;
+  padding: 1.5em 7em 3em 0em;
+  line-height: 1.7em;
+  margin-right: 3em;
+  margin-left: 3em;
   color: rgb(70,70,70);
-  font-size:11.25px;
+  font-size:.75em;
 }
 
 .sideimg {
   width: 100%;
-  padding-left: 0px;
-  padding-right: 0px;
-  padding-top: 15px;
+  padding-left: 0em;
+  padding-right: 0em;
+  padding-top: 1.5em;
 }
 
 .pullquote {
   color: rgb(45,154,183);
-  font-size: 16px;
+  font-size: 1.5em;
   font-weight: normal;
-  margin-bottom: -25px;
+  margin-bottom: -1.9em;
 }
 
 .byline {
@@ -134,11 +132,11 @@ a {
 }
 
 .top {
-  padding-top: 30px;
+  padding-top: 1.9em;
 }
 
 .bottom {
-  padding-bottom: 40px;
+  padding-bottom: 1.9em;
 }
 
 /* footer */
@@ -151,18 +149,13 @@ footer {
   padding: 0em 2em 2em 2em;
 }
 
-.footer-container {
-  position: relative;
-  text-align: left;
-  color: white;
-}
 
 .footertext {
   color: white;
-  font-weight:normal;
+  font-weight: normal;
   font-size: 10px;
   text-decoration: none;
-  padding: 13px 40px 13px 40px;
+  padding: 1em;
 }
 
 .center{
