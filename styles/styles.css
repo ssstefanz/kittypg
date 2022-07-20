@@ -6,6 +6,20 @@ body {
   margin: 0em;
 }
 
+.page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+.hidden {
+  position: relative;
+  left: -100000px;
+  top:auto;
+  background-color: rgb(45,154,183);
+}
+.hidden:focus {
+  left: 1px;
+}
 /* title and subtitle */
 
 header {
@@ -45,6 +59,11 @@ ul {
 
 li {
   display: inline-block;
+}
+
+nav a {
+  padding: .5em;
+  margin: .5em;
 }
 
 .navtext {
@@ -124,13 +143,18 @@ a {
 
 /* footer */
 footer {
-  clear: right;
   background-color: rgb(58,58,58);
+  width: 100%;
+  box-sizing: inherit;
   color: white;
-  text-align: center;
-  line-height: 1.7;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  font-size: 0.6em;
+  padding: 0em 2em 2em 2em;
+}
+
+.footer-container {
+  position: relative;
+  text-align: left;
+  color: white;
 }
 
 .footertext {
